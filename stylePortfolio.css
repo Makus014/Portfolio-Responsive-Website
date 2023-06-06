@@ -1,0 +1,94 @@
+.pTitle {
+  text-align: center;
+  color: white;
+}
+
+body {
+  background-image: linear-gradient(to bottom, rgba(75, 75, 75, 0.52), rgba(0, 0, 0, 0.73)), url("backgroundPortfolio.gif");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.pMenu {
+  width: 80%;
+  background: linear-gradient(to bottom, rgba(133, 9, 98, 0.52), rgba(0, 0, 0, 0.73));
+  padding: 20px;
+  align-items: center;
+  margin: auto;
+}
+
+.pMenu a {
+  text-decoration: none;
+  padding-left: 30px;
+  color: white;
+}
+
+.pMenu a:hover {
+  color: plum;
+}
+
+.pMenu :visited {
+  color: white;
+}
+
+.pMenu a:active {
+  color: purple;
+}
+
+.aTitle {
+  color: white;
+  margin: 50px;
+}
+
+.pContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+}
+
+.pCard img {
+  height: 500px;
+  width: 600px;
+  border-radius: 20px;
+}
+
+.pCard {
+  box-shadow: 0 0 0 5px rgb(160, 62, 241), 0 0 10px 10px rgb(131, 96, 255);
+  background-color: purple;
+  margin: 20px;
+  color: black;
+  border-radius: 10px;
+}
+
+.pCard p {
+  color: white;
+  text-align: center;
+  margin: auto;
+  width: 300px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .pMenu {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 812px) {
+  .pMenu {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .pTitle {
+    font-size: 13px;
+  }
+  .pMenu {
+    width: 350px;
+  }
+  .pCard img {
+    height: 300px;
+    width: 300px;
+  }
+}/*# sourceMappingURL=stylePortfolio.css.map */
